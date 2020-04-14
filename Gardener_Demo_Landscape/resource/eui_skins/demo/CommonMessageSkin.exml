@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonMessageSkin" width="500" height="300" xmlns:e="http://ns.egret.com/eui">
+	<e:Rect width="100%" height="100%" x="0" y="0" strokeColor="0x3f261f" strokeWeight="4" ellipseWidth="30" ellipseHeight="30" fillColor="0xf2bd8a"/>
+	<e:Label id="lbMessage" width="400" height="150" x="50" y="35" textAlign="center" verticalAlign="middle" text="sadfasdfadf " textColor="0x41514e" size="25" wordWrap="true" lineSpacing="6"/>
+    <e:Group id="gpButtons" width="360" y="210" horizontalCenter="0">
+    <e:Button id="btnCancel" width="140" height="60"/>
+    <e:Button id="btnConfirm" width="140" height="60"/>
+    <e:layout>
+        <e:HorizontalLayout horizontalAlign="center" gap="50"/>
+    </e:layout>
+    </e:Group>
+</e:Skin>

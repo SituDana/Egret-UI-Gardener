@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="skins.ButtonSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" >
+<e:Group width="100%" height="100%" x.down="1" y.down="1">
+    <e:Rect width="100%" height="100%" ellipseWidth="25" ellipseHeight="25" strokeColor="0x3f261f" strokeWeight="2" fillColor="0x54a563"/>
+    <e:Label id="labelDisplay"
+             size="27"
+             textColor="0xFFFFFF" verticalAlign="middle" textAlign="center" horizontalCenter="0" verticalCenter="0" text="按钮" bold="true"/>
+    <e:Image id="iconDisplay" horizontalCenter="0" verticalCenter="0"/>
+    </e:Group>
+</e:Skin>

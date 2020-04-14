@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SceneEUIDemo_2Skin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui">
+    <e:Image source="bg_jpg" width="100%"/>
+    <e:Scroller width="600" horizontalCenter="0" top="150" bottom="300">
+        <e:Group>
+            <e:Label text="1. Scene层是游戏中除了Main以外的最底层容器，也叫场景容器。" bold="true" size="30" textColor="0x362e2b" width="600" textAlign="left"
+             anchorOffsetX="300" lineSpacing="10" horizontalCenter="0" verticalCenter="0"  wordWrap="true"/>
+					<e:Label text="2. gardener.loadScene() 用来切换场景，过度动画可以选择开启。" bold="true" size="30" textColor="0x362E2B" width="600" textAlign="left" anchorOffsetX="300" lineSpacing="10" horizontalCenter="0" verticalCenter="0" wordWrap="true"/>
+					<e:Label text="3. GardenerUI框架中，层级关系从下到上有：Scene层 -&gt; Window层 -&gt; Navigator层 -&gt; Popup层 -&gt; MessageBox层，它们相互独立，均为Main的子元素" bold="true" size="30" textColor="0x362E2B" width="600" textAlign="left" anchorOffsetX="300" lineSpacing="10" horizontalCenter="0" verticalCenter="0" wordWrap="true"/>
+					<e:Label text="4. 飘字消息(float tip) 和 遮罩 直接弹出在所有容器之上。" bold="true" size="30" textColor="0x362E2B" width="600" textAlign="left" anchorOffsetX="300" lineSpacing="10" horizontalCenter="0" verticalCenter="0" wordWrap="true"/>
+					<e:Label text="5. 所有层级容器都可以获取，并且可以直接修改他们的层次关系和布局属性。" bold="true" size="30" textColor="0x362E2B" width="600" textAlign="left" anchorOffsetX="300" lineSpacing="10" horizontalCenter="0" verticalCenter="0" wordWrap="true"/>
+					<e:layout>
+						<e:VerticalLayout gap="30"/>
+					</e:layout>
+        </e:Group>
+    </e:Scroller>
+
+    <e:Button skinName="skins.ButtonSkin" id="btnWindow" width="180" label="Window" bottom="200" height="70" left="132"/>
+    <e:Button skinName="skins.ButtonSkin" id="btnEUIWindow" width="220" label="EUI Window" bottom="200" height="70" right="132"/>
+</e:Skin>

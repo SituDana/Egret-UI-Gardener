@@ -1,0 +1,11 @@
+{
+    "FLOAT_TIP_DEMO":"这是一个飘字消息",
+    "ERROR_SERVER_NO_RESPONSE":"服务器无响应",
+    "BUTTON_LABEL_DB":"二进制龙骨动画",
+    "MESSAGE_SHOW_ANOTHER":"试试再弹出一个 message box？",
+    "MESSAGE_SHOW_ANOTHER_COVER":"打开message box可以选择关闭前一个，也可以错位覆盖在上面。",
+    "MESSAGE_CLOSE_MESSAGEBOX":"gardener.closeAllMessageBoxes() 可以关闭所有打开中的message box。",
+    "MESSAGE_CLOSE_BY_TAP_BG":"当MessageBox的属性_allowCloseByTapBg = true时，点击背景遮罩，可以关闭message box。",
+    "LABEL_GARDENER_DES":"1. Gardener作为一款极轻的白鹭UI框架，提供丰富UI功能，满足绝大部分的游戏产品的需求。\r\r2. 框架接口清晰简单，控制灵活，是从线上多款产品框架中总结提炼出来。\r\r3. Gardener内置一个龙骨动画控制器，支持二进制格式的动画，特点是自动管理回收和资源缓存。\r\r4. 此框架的意义在于解放开发者，让开发者把更多的精力用在游戏的核心玩法上。",
+    "LABEL_DB_DES":"1. Gardener提供龙骨动画控制器，二进制导出格式现已覆盖所有类型动画，所以此控制器只支持二进制动画格式。\r\r2. 此控制器灵活控制龙骨资源的缓存与回收，只需要根据需要设定参数，开发者不用过多考虑回收与缓存的问题。"
+}

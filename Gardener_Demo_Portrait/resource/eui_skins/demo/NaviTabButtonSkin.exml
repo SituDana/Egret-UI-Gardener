@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.NaviTabButtonSkin" states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected"
+        xmlns:e="http://ns.egret.com/eui" width="100" height="60">
+    <e:Group width="100%" height="100%" horizontalCenter="0" verticalCenter="0" verticalCenter.down="1" horizontalCenter.down="1" verticalCenter.downAndSelected="1" horizontalCenter.downAndSelected="1">
+        <e:Rect width="100%" height="100%" ellipseWidth="10" ellipseHeight="10"  strokeColor="0x3f261f" strokeWeight="2" fillColor.upAndSelected="0xf0b8b0" fillColor.down="0xf0b8b0" fillColor="0xe09b91" fillColor.up="0xc4847b" fillColor.downAndSelected="0xc4847b"/>
+        <e:Label id="labelDisplay" size="30" textAlign="center" verticalAlign="middle"
+                 fontFamily="Tahoma"  horizontalCenter="0" verticalCenter="0" text="按钮" textColor="0x3f261f" textColor.down="0x3f261f" textColor.downAndSelected="0x3f261f" textColor.upAndSelected="0x3f261f"/>
+    </e:Group>
+</e:Skin>

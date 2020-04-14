@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WindowEUIDemo_2Skin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui">
+    <e:Rect fillColor="0x80dcaf" width="100%" height="100%" />
+    <e:Label text="EUI Demo Window" bold="true" size="40" textColor="0x91490f" width="400" textAlign="center"
+             anchorOffsetX="200" horizontalCenter="0" top="100" />
+    <e:Label text="You can choose to save the previous windows or dispose them when to open a new one. Please focus on the parameters of \'gardener.openWindow()\'" bold="true" size="30" textColor="0x362e2b" width="600" textAlign="center"
+             anchorOffsetX="300" lineSpacing="10" horizontalCenter="0" verticalCenter="0"  wordWrap="true"/>
+
+    <e:Button skinName="skins.ButtonSkin" id="btnBack" width="180" label="Go Back" x="20" top="20"/>
+    <e:Button skinName="skins.ButtonSkin" id="btnNewWindow" width="500" label="Open New, Saving Current" x="100" bottom="100"/>
+    <e:Button skinName="skins.ButtonSkin" id="btnPopup" width="180" label="Popup" x="100" bottom="200"/>
+</e:Skin>

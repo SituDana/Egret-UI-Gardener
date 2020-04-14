@@ -1,0 +1,23 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/eui/eui.js",
+		"libs/modules/assetsmanager/assetsmanager.js",
+		"libs/modules/dragonBones/dragonBones.js",
+		"libs/modules/game/game.js",
+		"libs/modules/tween/tween.js",
+		"libs/modules/promise/promise.js"
+	],
+	"game": [
+		"bin-debug/gardener/FloatTip.js",
+		"bin-debug/gardener/GameGardener.js",
+		"bin-debug/gardener/MessageBox.js",
+		"bin-debug/gardener/Popup.js",
+		"bin-debug/gardener/Scene.js",
+		"bin-debug/gardener/Window.js",
+		"bin-debug/gardener/utils/DbAnimationGenerator.js",
+		"bin-debug/gardener/utils/Extention.js",
+		"bin-debug/gardener/utils/TsMap.js"
+	]
+}

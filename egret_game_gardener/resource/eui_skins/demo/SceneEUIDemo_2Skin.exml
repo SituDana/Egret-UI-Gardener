@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SceneEUIDemo_2Skin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui">
+    <e:Rect fillColor="0x6abded" width="100%" height="100%" />
+    <e:Label text="EUI Demo Scene" bold="true" size="45" textColor="0x91490f" width="400" textAlign="center"
+             anchorOffsetX="200" horizontalCenter="0" top="50" />
+    <e:Label text="A window that extends BaseWindow or EUIBaseWindow can be opened in front of a scene. \rInterface: gardener.openWindow()" bold="true" size="30" textColor="0x362e2b" width="600" textAlign="center"
+             anchorOffsetX="300" lineSpacing="10" horizontalCenter="0" verticalCenter="0"  wordWrap="true"/>
+
+    <e:Button skinName="skins.ButtonSkin" id="btnWindow" width="180" label="Window" x="20" bottom="200"/>
+    <e:Button skinName="skins.ButtonSkin" id="btnEUIWindow" width="180" label="EUIWindow" x="220" bottom="200"/>
+</e:Skin>

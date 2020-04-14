@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NavigatorSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Group>
+        <e:Image source="bg_header_png" />
+			<e:Label id="lbSceneName" text="Scene Name" bold="true" size="45" width="400" textAlign="center" anchorOffsetX="200" horizontalCenter="0" textColor="0x3f261f" y="43.35"/>
+    </e:Group>
+    <e:Group bottom="0" width="100%" height="100">
+        <e:RadioButton id="btnTab1" height="100%" skinName="skins.NaviTabButtonSkin" label="Egret 场景" groupName="navi"/>
+        <e:RadioButton id="btnTab2" height="100%" skinName="skins.NaviTabButtonSkin" label="EUI 场景" groupName="navi"/>
+			<e:layout>
+				<e:HorizontalLayout gap="1" horizontalAlign="justify"/>
+			</e:layout>
+    </e:Group>
+</e:Skin>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PopupEUIDemoSkin" width="800" height="600" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="100%" height="100%" x="0" y="0" strokeColor="0x6a3906" strokeWeight="4" ellipseWidth="30" ellipseHeight="30" fillColor="0xf2bd8a"/>
+    <e:Label width="400" horizontalCenter="0" textAlign="center" size="40" bold="true" top="60" text="It's a Popup " textColor="0x41514e"/>
+	<e:Label id="lbMessage" width="650" verticalCenter="26" textAlign="center" verticalAlign="middle" text="Interface: \'gardener.openPopup()\' for fading in a popup. Saving previous popup is not supported when to open a new one, the previous popup will be disposed. " wordWrap="true" textColor="0x41514e" anchorOffsetX="0" horizontalCenter="0"/>
+    <e:Button skinName="skins.ButtonSkin" id="btnClose" width="120" label="Close" right="20" top="20"/>
+	<e:Button id="btnLoading" skinName="skins.ButtonSkin" width="350" label="Show Loading Mask" y="162" horizontalCenter="0"/>
+</e:Skin>

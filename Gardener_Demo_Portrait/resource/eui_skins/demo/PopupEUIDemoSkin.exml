@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PopupEUIDemoSkin" width="600" height="800" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="100%" height="100%" x="0" y="0" strokeColor="0x6a3906" strokeWeight="4" ellipseWidth="30" ellipseHeight="30" fillColor="0xf4e5e3"/>
+    <e:Label width="400" horizontalCenter="0" textAlign="center" size="40" bold="true" top="60" text="Popup " textColor="0x41514e"/>
+	<e:Scroller width="500" horizontalCenter="0" top="229" bottom="300" visible="true" anchorOffsetY="0">
+		<e:Group>
+			
+		
+		
+		
+		
+		
+		
+	
+		<e:Label text="1. Popup一般用来展示微小动作的确认或者小型功能模块。" bold="true" size="30" textColor="0x362E2B" width="500" textAlign="left" anchorOffsetX="300" lineSpacing="10" horizontalCenter="0" verticalCenter="0" wordWrap="true"/>
+		<e:Label text="2. gardener.openPopup() 用来打开popup窗口，滑入动画默认开启。" bold="true" size="30" textColor="0x362E2B" width="500" textAlign="left" anchorOffsetX="300" lineSpacing="10" horizontalCenter="0" verticalCenter="0" wordWrap="true"/>
+		<e:Label text="3. gardener.closePopup() 关闭当前打开的popup" bold="true" size="30" textColor="0x362E2B" width="500" textAlign="left" anchorOffsetX="300" lineSpacing="10" horizontalCenter="0" verticalCenter="0" wordWrap="true"/>
+		<e:layout>
+				
+			
+		
+	
+			
+		
+			<e:VerticalLayout gap="30"/>
+		</e:layout>
+		</e:Group>
+	</e:Scroller>
+    <e:Button id="btnClose" width="120" label="关闭" right="20" top="20" height="70" skinName="skins.ButtonYellowSkin"/>
+	<e:Button id="btnLoading" skinName="skins.ButtonSkin" width="350" label="显示 loading 遮罩" y="137.24" horizontalCenter="0" height="70"/>
+</e:Skin>
