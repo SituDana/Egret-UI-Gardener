@@ -22,7 +22,7 @@ GardenerUI框架中，层级关系从下到上有：Scene层 -> Window层 -> Nav
 ##### gardener.NavigatorContainer    ——navigator导航容器
 ##### gardener.PopupContainer    ——popup弹窗容器，一般用来展示微小动作的确认或者小型功能模块
 ##### gardener.MessageContainer    ——message box消息弹窗容器 / 奖励弹窗容器
-![ui_frame.jpg](res/ui_frame.jpg)
+![ui_frame.jpg](https://upload-images.jianshu.io/upload_images/17499409-36727b76df1ca2a2.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ### 显示对象
 ##### Scene    ——scene场景
 ```
