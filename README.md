@@ -7,7 +7,7 @@ Gardener内置一个龙骨动画控制器，支持二进制导出格式（json�
 # Demo展示
 ![portraid_screenshot.png](https://upload-images.jianshu.io/upload_images/17499409-94111aef43581136.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![gardener_portrait_demo2.gif](https://upload-images.jianshu.io/upload_images/17499409-3650b5e9d84c436a.gif?imageMogr2/auto-orient/strip)
+![gardener_portrait_demo3.gif](https://upload-images.jianshu.io/upload_images/17499409-fdf97d1c83ee8bd4.gif?imageMogr2/auto-orient/strip)
 
 ![landspace_screenshot.png](https://upload-images.jianshu.io/upload_images/17499409-e9313d88c514480a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
